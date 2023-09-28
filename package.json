@@ -4,7 +4,7 @@
   "description": "api del proyecto de expenses_tracker para la materia de aplicacciones moviles",
   "main": "app.js", 
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "author": "Rudy Perez",
   "license": "MIT",
