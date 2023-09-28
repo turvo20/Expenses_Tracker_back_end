@@ -1,3 +1,5 @@
+import { UserModel } from "../modules/models"
+
 
 /**
  * Define asociaciones entre modelos Sequelize y sincroniza la base de datos.
