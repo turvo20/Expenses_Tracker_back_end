@@ -6,7 +6,9 @@ import { check } from 'express-validator'
 
 
 const authRouter = Router()
-
+authRouter.get('/',(res)=>{
+    res.send('funciona')
+})
 authRouter.post('/sing-in',
 [
     check('email', 'El email es obligatorio').isEmail(),
