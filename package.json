@@ -2,10 +2,14 @@
   "name": "expenses_tracker_back_end",
   "version": "1.0.0",
   "description": "api del proyecto de expenses_tracker para la materia de aplicacciones moviles",
-  "main": "app.js",
+  "main": "app.js", 
+  "engines": {
+    "node": "16.x"
+  },
   "author": "Rudy Perez",
   "license": "MIT",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon --exec babel-node ./src/app.js",
     "build": "npx babel src --out-dir dist"
 },

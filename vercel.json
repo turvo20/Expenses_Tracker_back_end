@@ -5,8 +5,11 @@
           "src": "./src/app.js",
           "use": "@vercel/node"
         }
-      ],
-    "rewrites": [
-        { "source": "/public/(.*)", "destination": "/$1" }
+      ],  "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "/"
+        }
       ]
+   
 }
