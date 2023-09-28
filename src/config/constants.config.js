@@ -7,7 +7,7 @@ export default {
     DB: {
         POSTGRES_USER: process.env.POSTGRES_USER,
         POSTGRES_PASSWORD: process.env.POSTGRES_PASSWORD,
-        POSTGRES_DB: process.env.POSTGRES_DB,
+        POSTGRES_DB: process.env.POSTGRES_DATABASE,
         POSTGRES_HOST: process.env.POSTGRES_HOST,
         DIALECT: process.env.DIALECT
     },
