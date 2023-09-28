@@ -6,7 +6,8 @@
   "author": "Rudy Perez",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node ./src/app.js"
+    "dev": "nodemon --exec babel-node ./src/app.js",
+    "build": "npx babel src --out-dir dist"
 },
   "dependencies": {
     "argon2": "^0.31.1",

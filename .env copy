@@ -1,0 +1,15 @@
+# SETTINGS ENVIROMENTS
+NODE_ENV=development
+DIALECT=postgres
+
+# POSTGRES ENVIROMENTS
+POSTGRES_DB=expenses_tracker
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+
+SERVER_PORT = 8300
+JWT_SECRET=aslkafjalsfklashfklsfkla
+HOST =http://localhost:
+
