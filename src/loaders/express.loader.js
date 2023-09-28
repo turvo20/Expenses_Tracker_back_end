@@ -19,7 +19,7 @@ export default async function expressLoader(app, routes) {
     app.use(urlencoded({ extended: false }))
     app.use(cors({ origin: "*" }))
     app.use(helmet())
-    app.use(express.static(path.resolve('./src/public')))
+    // app.use(express.static(path.resolve('./src/public')))
     // Carga las rutas en la aplicación Express
     routes.forEach(r => {
         app.use(r.path, r.controller)
