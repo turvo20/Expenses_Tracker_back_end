@@ -2,7 +2,7 @@
   "name": "expenses_tracker_back_end",
   "version": "1.0.0",
   "description": "api del proyecto de expenses_tracker para la materia de aplicacciones moviles",
-  "main": "index.js",
+  "main": "./src/app.js",
   "author": "Rudy Perez",
   "license": "MIT",
   "scripts": {
