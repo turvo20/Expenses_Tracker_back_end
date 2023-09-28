@@ -1,7 +1,7 @@
 {
     "version": 1,
     "builds": {
-        "src": "/src/index.js",
+        "src": "/src/app.js",
         "use": "@vercel/node"
     },
     "rewrites": [
