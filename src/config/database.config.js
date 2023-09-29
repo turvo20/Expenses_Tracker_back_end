@@ -18,7 +18,7 @@ const databaseConnectionSetup = () => {
             dialectOptions: {
                 multipleStatements: true
             },
-            dialectModule: pg,
+            dialectModule: require('pg'),
             logging: false,
             timezone: '-06:00',
             define: {
