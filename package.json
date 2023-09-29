@@ -9,7 +9,7 @@
   "author": "Rudy Perez",
   "license": "MIT",
   "scripts": {
-    "start": "node ./dist/app.js",
+    "start": "node app.js",
     "dev": "nodemon --exec babel-node ./app.js",
     "build": "npx babel src --out-dir dist"
 },
