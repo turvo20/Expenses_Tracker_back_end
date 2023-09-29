@@ -1,7 +1,7 @@
-import { config, sequelizeInstance } from './config'
-import loader from './loaders'
+import { config, sequelizeInstance } from './src/config'
+import loader from './src/loaders'
 import express from 'express'
-import api from './routers'
+import api from './src/routers'
 
 function startServer() {
     const app = express()

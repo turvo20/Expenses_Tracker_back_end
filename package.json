@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./dist/app.js",
-    "dev": "nodemon --exec babel-node ./src/app.js",
+    "dev": "nodemon --exec babel-node ./app.js",
     "build": "npx babel src --out-dir dist"
 },
   "dependencies": {
