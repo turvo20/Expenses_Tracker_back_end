@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "api del proyecto de expenses_tracker para la materia de aplicacciones moviles",
   "main": "app.js", 
+  "type": "module",
   "engines": {
     "node": "18.x"
   },
   "author": "Rudy Perez",
   "license": "MIT",
+  
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon --exec babel-node ./app.js",
